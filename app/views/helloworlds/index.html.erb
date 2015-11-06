@@ -1,0 +1,11 @@
+<h1> Hello World in different languages</h1>
+
+<h3> 
+	<% @helloworlds.each do |h| %>
+		<%= h.language %>
+		<%= h.greeting %> </br> </br>
+	<%end%>
+	<p> click here to enter hello world in your language 
+		<%= link_to 'here', new_helloworld_path %>
+	</p>
+</h3>

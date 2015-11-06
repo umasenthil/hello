@@ -1,0 +1,8 @@
+<div>
+	<h1> Add hello world in your language </h1>
+	<%= simple_form_for (@helloworld) do |f| %>
+		<%= f.input :language %>
+		<%= f.input :greeting %>
+		<%= f.submit 'Create' %>
+	<% end %>
+</div>
